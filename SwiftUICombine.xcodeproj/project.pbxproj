@@ -18,6 +18,8 @@
 		B28915AD27C1135D00AF4CB1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B28915AC27C1135D00AF4CB1 /* Preview Assets.xcassets */; };
 		B2C40F0827C170CD009F9719 /* FAQView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C40F0727C170CD009F9719 /* FAQView.swift */; };
 		B2C40F0A27C170FD009F9719 /* PackagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C40F0927C170FD009F9719 /* PackagesView.swift */; };
+		B2C40F0C27C17377009F9719 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C40F0B27C17377009F9719 /* Package.swift */; };
+		B2C40F0E27C17C5E009F9719 /* PackageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C40F0D27C17C5E009F9719 /* PackageRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		B28915AC27C1135D00AF4CB1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B2C40F0727C170CD009F9719 /* FAQView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQView.swift; sourceTree = "<group>"; };
 		B2C40F0927C170FD009F9719 /* PackagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackagesView.swift; sourceTree = "<group>"; };
+		B2C40F0B27C17377009F9719 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		B2C40F0D27C17C5E009F9719 /* PackageRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 				B28915A727C1135C00AF4CB1 /* ContentView.swift */,
 				B283B3A427C1371700A28F55 /* MenuRow.swift */,
 				B2C40F0727C170CD009F9719 /* FAQView.swift */,
+				B2C40F0B27C17377009F9719 /* Package.swift */,
+				B2C40F0D27C17C5E009F9719 /* PackageRow.swift */,
 				B2C40F0927C170FD009F9719 /* PackagesView.swift */,
 				B283B3A627C13BA400A28F55 /* GradientIcon.swift */,
 				B283B3A227C1331700A28F55 /* TrackableScrollView.swift */,
@@ -169,9 +175,11 @@
 				B28915A827C1135C00AF4CB1 /* ContentView.swift in Sources */,
 				B283B3A327C1331700A28F55 /* TrackableScrollView.swift in Sources */,
 				B283B3A027C12DCE00A28F55 /* AccountBackground.swift in Sources */,
+				B2C40F0E27C17C5E009F9719 /* PackageRow.swift in Sources */,
 				B2C40F0827C170CD009F9719 /* FAQView.swift in Sources */,
 				B2C40F0A27C170FD009F9719 /* PackagesView.swift in Sources */,
 				B283B3A727C13BA400A28F55 /* GradientIcon.swift in Sources */,
+				B2C40F0C27C17377009F9719 /* Package.swift in Sources */,
 				B28915A627C1135C00AF4CB1 /* SwiftUICombineApp.swift in Sources */,
 				B283B3A127C12DCE00A28F55 /* VisualEffectBlur.swift in Sources */,
 				B283B3A527C1371700A28F55 /* MenuRow.swift in Sources */,
