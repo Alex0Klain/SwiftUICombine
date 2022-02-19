@@ -8,14 +8,35 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        Text("Hello, world!")
-            .padding()
+  
+  @State
+  private var contentOffset = CGFloat(0)
+  
+  var body: some View {
+    NavigationView {
+      ZStack(alignment: .top) {
+        TrackableScrollView(offsetChanged: { offsetPoint in
+          contentOffset = offsetPoint.y
+        }) {
+          Text("Hello, world!")
+        }
+        
+        VisualEffectBlur(blurStyle: .systemMaterial)
+          .opacity(contentOffset < -16 ? 1 : 0)
+          .animation(.easeIn, value: 0)
+          .ignoresSafeArea()
+          .frame(height: 0)
+      }
+      .frame(maxHeight: .infinity, alignment: .top)
+      .background(AccountBackground())
+      .navigationBarHidden(true)
     }
+    .navigationViewStyle(StackNavigationViewStyle())
+  }
 }
 
 struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+  static var previews: some View {
+    ContentView()
+  }
 }

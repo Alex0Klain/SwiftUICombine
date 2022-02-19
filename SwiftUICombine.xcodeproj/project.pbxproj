@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B283B3A027C12DCE00A28F55 /* AccountBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = B283B39E27C12DCE00A28F55 /* AccountBackground.swift */; };
+		B283B3A127C12DCE00A28F55 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = B283B39F27C12DCE00A28F55 /* VisualEffectBlur.swift */; };
+		B283B3A327C1331700A28F55 /* TrackableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B283B3A227C1331700A28F55 /* TrackableScrollView.swift */; };
+		B283B3A527C1371700A28F55 /* MenuRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B283B3A427C1371700A28F55 /* MenuRow.swift */; };
 		B28915A627C1135C00AF4CB1 /* SwiftUICombineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28915A527C1135C00AF4CB1 /* SwiftUICombineApp.swift */; };
 		B28915A827C1135C00AF4CB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28915A727C1135C00AF4CB1 /* ContentView.swift */; };
 		B28915AA27C1135D00AF4CB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B28915A927C1135D00AF4CB1 /* Assets.xcassets */; };
@@ -14,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B283B39E27C12DCE00A28F55 /* AccountBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountBackground.swift; sourceTree = "<group>"; };
+		B283B39F27C12DCE00A28F55 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
+		B283B3A227C1331700A28F55 /* TrackableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackableScrollView.swift; sourceTree = "<group>"; };
+		B283B3A427C1371700A28F55 /* MenuRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRow.swift; sourceTree = "<group>"; };
 		B28915A227C1135C00AF4CB1 /* SwiftUICombine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICombine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B28915A527C1135C00AF4CB1 /* SwiftUICombineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICombineApp.swift; sourceTree = "<group>"; };
 		B28915A727C1135C00AF4CB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +40,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B283B39D27C12DB400A28F55 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				B283B39E27C12DCE00A28F55 /* AccountBackground.swift */,
+				B283B39F27C12DCE00A28F55 /* VisualEffectBlur.swift */,
+			);
+			path = Graphics;
+			sourceTree = "<group>";
+		};
 		B289159927C1135C00AF4CB1 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +68,11 @@
 		B28915A427C1135C00AF4CB1 /* SwiftUICombine */ = {
 			isa = PBXGroup;
 			children = (
+				B283B39D27C12DB400A28F55 /* Graphics */,
 				B28915A527C1135C00AF4CB1 /* SwiftUICombineApp.swift */,
 				B28915A727C1135C00AF4CB1 /* ContentView.swift */,
+				B283B3A427C1371700A28F55 /* MenuRow.swift */,
+				B283B3A227C1331700A28F55 /* TrackableScrollView.swift */,
 				B28915A927C1135D00AF4CB1 /* Assets.xcassets */,
 				B28915AB27C1135D00AF4CB1 /* Preview Content */,
 			);
@@ -138,7 +158,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B28915A827C1135C00AF4CB1 /* ContentView.swift in Sources */,
+				B283B3A327C1331700A28F55 /* TrackableScrollView.swift in Sources */,
+				B283B3A027C12DCE00A28F55 /* AccountBackground.swift in Sources */,
 				B28915A627C1135C00AF4CB1 /* SwiftUICombineApp.swift in Sources */,
+				B283B3A127C12DCE00A28F55 /* VisualEffectBlur.swift in Sources */,
+				B283B3A527C1371700A28F55 /* MenuRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
