@@ -32,7 +32,10 @@ struct ContentView: View {
       .navigationBarHidden(true)
     }
     .navigationViewStyle(StackNavigationViewStyle())
+    .accentColor(colorScheme == .dark ? .white : Color(#colorLiteral(red: 0.2196078449, green: 0.007843137719, blue: 0.8549019694, alpha: 1)))
   }
+  
+  @Environment(\.colorScheme) var colorScheme: ColorScheme
 }
 
 private extension ContentView {
