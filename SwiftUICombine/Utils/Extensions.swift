@@ -29,4 +29,19 @@ extension View {
     )
       .mask(self)
   }
+  
+  func blurBackground() -> some View {
+    self.padding(16)
+      .background(Color("Background 1"))
+      .background(VisualEffectBlur(blurStyle: .systemUltraThinMaterialDark))
+      .overlay(
+        RoundedRectangle(
+          cornerRadius: 20,
+          style: .continuous
+        )
+          .stroke(.white, lineWidth: 1)
+          .blendMode(.overlay)
+      )
+      .mask(RoundedRectangle(cornerRadius: 20, style: .continuous))
+  }
 }
