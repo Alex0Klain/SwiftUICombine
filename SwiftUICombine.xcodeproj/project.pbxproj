@@ -11,6 +11,8 @@
 		B2366D4827DE5AA1008B0B3E /* faqData.json in Resources */ = {isa = PBXBuildFile; fileRef = B2366D4727DE5AA1008B0B3E /* faqData.json */; };
 		B2366D4A27DE5B30008B0B3E /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2366D4927DE5B30008B0B3E /* ModelData.swift */; };
 		B2366D4C27DE5CFE008B0B3E /* FAQRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2366D4B27DE5CFE008B0B3E /* FAQRow.swift */; };
+		B2366D4F27DE5F2A008B0B3E /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2366D4E27DE5F2A008B0B3E /* PrimaryButton.swift */; };
+		B2366D5127DE611C008B0B3E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2366D5027DE611C008B0B3E /* Extensions.swift */; };
 		B283B3A027C12DCE00A28F55 /* AccountBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = B283B39E27C12DCE00A28F55 /* AccountBackground.swift */; };
 		B283B3A127C12DCE00A28F55 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = B283B39F27C12DCE00A28F55 /* VisualEffectBlur.swift */; };
 		B283B3A327C1331700A28F55 /* TrackableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B283B3A227C1331700A28F55 /* TrackableScrollView.swift */; };
@@ -31,6 +33,8 @@
 		B2366D4727DE5AA1008B0B3E /* faqData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = faqData.json; sourceTree = "<group>"; };
 		B2366D4927DE5B30008B0B3E /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		B2366D4B27DE5CFE008B0B3E /* FAQRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQRow.swift; sourceTree = "<group>"; };
+		B2366D4E27DE5F2A008B0B3E /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		B2366D5027DE611C008B0B3E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		B283B39E27C12DCE00A28F55 /* AccountBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountBackground.swift; sourceTree = "<group>"; };
 		B283B39F27C12DCE00A28F55 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
 		B283B3A227C1331700A28F55 /* TrackableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackableScrollView.swift; sourceTree = "<group>"; };
@@ -70,6 +74,7 @@
 		B2366D3F27DE59A6008B0B3E /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				B2366D4D27DE5F1C008B0B3E /* Buttons */,
 				B2366D4327DE5A20008B0B3E /* Other */,
 				B2366D4227DE5A06008B0B3E /* Rows */,
 			);
@@ -81,6 +86,7 @@
 			children = (
 				B283B3A227C1331700A28F55 /* TrackableScrollView.swift */,
 				B2366D4927DE5B30008B0B3E /* ModelData.swift */,
+				B2366D5027DE611C008B0B3E /* Extensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -118,6 +124,14 @@
 				B2366D4727DE5AA1008B0B3E /* faqData.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		B2366D4D27DE5F1C008B0B3E /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				B2366D4E27DE5F2A008B0B3E /* PrimaryButton.swift */,
+			);
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 		B283B39D27C12DB400A28F55 /* Graphics */ = {
@@ -252,7 +266,9 @@
 				B283B3A727C13BA400A28F55 /* GradientIcon.swift in Sources */,
 				B2C40F0C27C17377009F9719 /* Package.swift in Sources */,
 				B2366D4527DE5A4C008B0B3E /* FAQ.swift in Sources */,
+				B2366D5127DE611C008B0B3E /* Extensions.swift in Sources */,
 				B28915A627C1135C00AF4CB1 /* SwiftUICombineApp.swift in Sources */,
+				B2366D4F27DE5F2A008B0B3E /* PrimaryButton.swift in Sources */,
 				B283B3A127C12DCE00A28F55 /* VisualEffectBlur.swift in Sources */,
 				B283B3A527C1371700A28F55 /* MenuRow.swift in Sources */,
 			);
