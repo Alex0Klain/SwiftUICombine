@@ -8,9 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
-  
   @State
   private var contentOffset = CGFloat(0)
+  
+  @State
+  private var showCertificates: Bool = false
   
   var body: some View {
     NavigationView {
@@ -42,6 +44,9 @@ private extension ContentView {
   var content: some View {
     VStack {
       ProfileRow()
+        .onTapGesture {
+          showCertificates.toggle()
+        }
       
       VStack {
         NavigationLink(destination: FAQView()) {
@@ -81,6 +86,9 @@ private extension ContentView {
     .padding(.top, 20)
     .padding(.horizontal, 20)
     .padding(.bottom, 10)
+    .sheet(isPresented: $showCertificates) {
+      CertificatesView()
+    }
   }
 }
 

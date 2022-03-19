@@ -32,7 +32,7 @@ final class CertificateViewModel: ObservableObject {
             let dateValue = (data["date"] as AnyObject).dateValue()
             let date = dateValue.formatDate()
             let logo = data["logo"] as? String ?? ""
-            let instructor = data["Instructor"] as? String ?? ""
+            let instructor = data["instructor"] as? String ?? ""
             
             let certificate = Certificate(
               id: id,
@@ -41,6 +41,8 @@ final class CertificateViewModel: ObservableObject {
               logo: logo,
               instructor: instructor
             )
+            
+            dump("Add \(certificate)")
             
             self.certificates.append(certificate)
           }
