@@ -17,6 +17,7 @@
 		B21459E627E67CA600A86FF5 /* LiteModeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21459E527E67CA600A86FF5 /* LiteModeRow.swift */; };
 		B21459E927E67EAA00A86FF5 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = B21459E827E67EAA00A86FF5 /* FirebaseMessaging */; };
 		B21459EB27E67EB100A86FF5 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = B21459EA27E67EB100A86FF5 /* FirebaseAnalytics */; };
+		B21459ED27E6821200A86FF5 /* NotificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21459EC27E6821200A86FF5 /* NotificationViewModel.swift */; };
 		B2366D4527DE5A4C008B0B3E /* FAQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2366D4427DE5A4C008B0B3E /* FAQ.swift */; };
 		B2366D4827DE5AA1008B0B3E /* faqData.json in Resources */ = {isa = PBXBuildFile; fileRef = B2366D4727DE5AA1008B0B3E /* faqData.json */; };
 		B2366D4A27DE5B30008B0B3E /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2366D4927DE5B30008B0B3E /* ModelData.swift */; };
@@ -47,6 +48,7 @@
 		B21459E127E63B9200A86FF5 /* CertificateCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificateCard.swift; sourceTree = "<group>"; };
 		B21459E327E67B3A00A86FF5 /* NotificationsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsRow.swift; sourceTree = "<group>"; };
 		B21459E527E67CA600A86FF5 /* LiteModeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiteModeRow.swift; sourceTree = "<group>"; };
+		B21459EC27E6821200A86FF5 /* NotificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewModel.swift; sourceTree = "<group>"; };
 		B2366D4427DE5A4C008B0B3E /* FAQ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQ.swift; sourceTree = "<group>"; };
 		B2366D4727DE5AA1008B0B3E /* faqData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = faqData.json; sourceTree = "<group>"; };
 		B2366D4927DE5B30008B0B3E /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				B21459DB27E60AC800A86FF5 /* CertificateViewModel.swift */,
+				B21459EC27E6821200A86FF5 /* NotificationViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 				B21459E427E67B3A00A86FF5 /* NotificationsRow.swift in Sources */,
 				B2C40F0C27C17377009F9719 /* Package.swift in Sources */,
 				B2366D4527DE5A4C008B0B3E /* FAQ.swift in Sources */,
+				B21459ED27E6821200A86FF5 /* NotificationViewModel.swift in Sources */,
 				B2366D5127DE611C008B0B3E /* Extensions.swift in Sources */,
 				B28915A627C1135C00AF4CB1 /* SwiftUICombineApp.swift in Sources */,
 				B2366D4F27DE5F2A008B0B3E /* PrimaryButton.swift in Sources */,
