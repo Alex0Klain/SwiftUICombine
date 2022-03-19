@@ -11,6 +11,8 @@
 		B21459D727E606D600A86FF5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B21459D627E606D600A86FF5 /* GoogleService-Info.plist */; };
 		B21459DA27E6089200A86FF5 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = B21459D927E6089200A86FF5 /* FirebaseFirestore */; };
 		B21459DC27E60AC800A86FF5 /* CertificateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21459DB27E60AC800A86FF5 /* CertificateViewModel.swift */; };
+		B21459DF27E6207A00A86FF5 /* CertificatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21459DE27E6207A00A86FF5 /* CertificatesView.swift */; };
+		B21459E227E63B9200A86FF5 /* CertificateCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21459E127E63B9200A86FF5 /* CertificateCard.swift */; };
 		B2366D4527DE5A4C008B0B3E /* FAQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2366D4427DE5A4C008B0B3E /* FAQ.swift */; };
 		B2366D4827DE5AA1008B0B3E /* faqData.json in Resources */ = {isa = PBXBuildFile; fileRef = B2366D4727DE5AA1008B0B3E /* faqData.json */; };
 		B2366D4A27DE5B30008B0B3E /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2366D4927DE5B30008B0B3E /* ModelData.swift */; };
@@ -37,6 +39,8 @@
 		B21459D427E6061800A86FF5 /* Certificate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Certificate.swift; sourceTree = "<group>"; };
 		B21459D627E606D600A86FF5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B21459DB27E60AC800A86FF5 /* CertificateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificateViewModel.swift; sourceTree = "<group>"; };
+		B21459DE27E6207A00A86FF5 /* CertificatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificatesView.swift; sourceTree = "<group>"; };
+		B21459E127E63B9200A86FF5 /* CertificateCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificateCard.swift; sourceTree = "<group>"; };
 		B2366D4427DE5A4C008B0B3E /* FAQ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQ.swift; sourceTree = "<group>"; };
 		B2366D4727DE5AA1008B0B3E /* faqData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = faqData.json; sourceTree = "<group>"; };
 		B2366D4927DE5B30008B0B3E /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
@@ -80,6 +84,14 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
+		B21459E027E63B8000A86FF5 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				B21459E127E63B9200A86FF5 /* CertificateCard.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
 		B2366D3E27DE5992008B0B3E /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +105,7 @@
 		B2366D3F27DE59A6008B0B3E /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				B21459E027E63B8000A86FF5 /* Cards */,
 				B2366D4D27DE5F1C008B0B3E /* Buttons */,
 				B2366D4327DE5A20008B0B3E /* Other */,
 				B2366D4227DE5A06008B0B3E /* Rows */,
@@ -114,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				B2C40F0927C170FD009F9719 /* PackagesView.swift */,
+				B21459DE27E6207A00A86FF5 /* CertificatesView.swift */,
 				B2C40F0727C170CD009F9719 /* FAQView.swift */,
 			);
 			path = Views;
@@ -295,6 +309,7 @@
 				B2C40F0A27C170FD009F9719 /* PackagesView.swift in Sources */,
 				B283B3A727C13BA400A28F55 /* GradientIcon.swift in Sources */,
 				B21459DC27E60AC800A86FF5 /* CertificateViewModel.swift in Sources */,
+				B21459E227E63B9200A86FF5 /* CertificateCard.swift in Sources */,
 				B2366D5327DE6698008B0B3E /* ProfileRow.swift in Sources */,
 				B2C40F0C27C17377009F9719 /* Package.swift in Sources */,
 				B2366D4527DE5A4C008B0B3E /* FAQ.swift in Sources */,
@@ -302,6 +317,7 @@
 				B28915A627C1135C00AF4CB1 /* SwiftUICombineApp.swift in Sources */,
 				B2366D4F27DE5F2A008B0B3E /* PrimaryButton.swift in Sources */,
 				B283B3A127C12DCE00A28F55 /* VisualEffectBlur.swift in Sources */,
+				B21459DF27E6207A00A86FF5 /* CertificatesView.swift in Sources */,
 				B283B3A527C1371700A28F55 /* MenuRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

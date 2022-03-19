@@ -9,7 +9,8 @@ import Foundation
 import Firebase
 
 final class CertificateViewModel: ObservableObject {
-  @Published var certificates: [Certificate] = []
+  @Published
+  var certificates: [Certificate] = []
   
   init() {
     fetchCertificates()
